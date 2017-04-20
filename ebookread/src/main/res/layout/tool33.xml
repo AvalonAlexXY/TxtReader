@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool33"
+    android:orientation="vertical"
+    android:background="@color/grey_color"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+    >
+
+    <TextView
+        android:paddingLeft="36px"
+        android:layout_width="match_parent"
+        android:background="@color/tool_color"
+        android:text="@string/bookpop_card"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_height="140px" />
+
+    <ListView
+        android:id="@+id/lv_bookcard"
+        android:layout_marginTop="1px"
+        android:background="@color/tool_color"
+        android:layout_width="match_parent"
+        android:divider="@color/grey_color"
+        android:dividerHeight="1px"
+        android:layout_height="1060px">
+
+
+    </ListView>
+
+
+</LinearLayout>

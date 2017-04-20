@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_btn_black"
+    android:orientation="vertical" >
+
+    <!-- <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mymarktitle"
+        android:contentDescription="@string/app_name" >
+    </ImageView> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:text="书签" />
+
+    <ListView
+        android:id="@+id/markid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@null" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <!--    <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/mymarkdown"
+           android:contentDescription="@string/app_name" >
+       </ImageView> -->
+
+</LinearLayout>

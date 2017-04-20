@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/readlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+    </RelativeLayout>
+
+    <include
+        layout="@layout/layout_read_header_bar" />
+
+    <TextView
+        android:id="@+id/tv_show_pop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="200dp" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearlayout_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="148px"
+    android:visibility="gone"
+    android:background="@color/tool_color"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ic_readbar_back"
+        android:layout_width="148px"
+        android:layout_height="148px"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ico_reader_back" />
+
+    <TextView
+        android:id="@+id/tv_readbar_title"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:textSize="18sp"
+        android:textColor="@color/deep_yellow"
+        android:text="标题" />
+
+    <ImageView
+        android:id="@+id/ic_readbar_menu1"
+        android:layout_width="148px"
+        android:layout_height="148px"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ico_reader_mark_add1" />
+
+    <ImageView
+        android:id="@+id/ic_readbar_menu2"
+        android:layout_width="148px"
+        android:layout_height="148px"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:src="@mipmap/ico_reader_mark_add2" />
+
+</LinearLayout>

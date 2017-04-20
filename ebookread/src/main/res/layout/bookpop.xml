@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/tool_color"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <!--字体-->
+    <include
+        android:id="@+id/layout_adjust_wordsize"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tool11"/>
+
+    <!--书签-->
+    <include
+        android:id="@+id/layout_book_tips"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        layout="@layout/tool33"/>
+
+    <!--跳转-->
+    <include
+        android:id="@+id/layout_jumpto"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tool44"/>
+
+    <!--分割线-->
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_color"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:fitsSystemWindows="true"
+        android:gravity="center_vertical"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/bookBtn3"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/ico_reader_mark"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/bookBtn4"
+            android:layout_width="0dp"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/ico_reader_jump"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/bookBtn1"
+            android:layout_width="0dp"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/ico_reader_font"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蝌蚪听书</string>
+    <string name="input_text">导入本地小说</string>
+    <string name="bookpop_size">字号</string>
+    <string name="bookpop_light">亮度</string>
+    <string name="bookpop_card">书签</string>
+    <string name="bookpop_send">跳转到</string>
+    <!-- in.xml -->
+    <string name="add_text_file">请选择需要导入的文本</string>
+
+    <string name="help">帮助</string>
+    <string name="add_text">导入</string>
+    <string name="speak"> 语音</string>
+    <string name="home"> 首页</string>
+<string name="helps">该软件用于阅读本地txt文本，可以简单导入文本文件进行阅读。你只需要把你txt格式的小说，
+    从电脑下载后，放进手机里面，倒开app，导入即可阅读。按菜单键，可以进行相关设置。特有功能
+    可以语音阅读文本，有感情，语音可以自定义额，自己设置，可以变换出各种声音。\n
+    提示：长按导入的书籍 可以从列表删除\n
+    \n提示：语音播报需要下载 听听中心插件  方可使用 你可以到各大市场搜索安装即可 或者在手机联网情况下 
+    点击语音播报时候，会提示让你自动下载安装 很方便 \n
+   如果无法播报，请退出软件重新进入或者点击设置 看是否关闭了听听中心  或者进行了其他设置
+     谢谢您的使用 祝阅读愉快！</string>
+</resources>

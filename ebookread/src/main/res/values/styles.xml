@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="FullHeightDialog"
+    parent="android:style/Theme.Dialog">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/tool_color</item>
+    </style>
+
+    <style name="text_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/deep_yellow</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

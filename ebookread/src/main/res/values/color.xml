@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#f58220</color>
+
+    <!-- 阅读 -->
+    <color name="grey_color">#cccccc</color>
+   
+    <color name="read_txt_color">#cf000000</color>
+
+</resources>
